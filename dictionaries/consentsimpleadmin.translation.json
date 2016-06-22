@@ -27,7 +27,8 @@
 		"sr": "Povla\u010denje odobrenja",
 		"ro": "Retragerea consim\u021b\u0103m\u00e2ntului",
 		"ru": "\u041e\u0442\u043e\u0437\u0432\u0430\u0442\u044c \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435",
-		"cs": "Zru\u0161it povolen\u00ed"
+		"cs": "Zru\u0161it povolen\u00ed",
+		"af": "Terugtrekking van toestemming"
 	},
 	"granted": {
 		"no": "Du har tidligere gitt samtykke %NO% ganger til %OF% forskjellige tjenester.",
@@ -57,7 +58,8 @@
 		"ro": "A\u021bi acordat mai devreme %NO% consim\u021b\u0103minte pentru %OF% servicii diferite.",
 		"ru": "\u0412\u044b \u0440\u0430\u043d\u0435\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435 %NO% \u0434\u043b\u044f \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0445 %OF% \u0441\u043b\u0443\u0436\u0431.",
 		"cs": "D\u0159\u00edve jste ud\u011blili %NO% povolen\u00ed %OF% r\u016fzn\u00fdm slu\u017eb\u00e1m.",
-		"eu": "Lehenago %NO% onespen onartu dituzu %OF% zerbitzu ezberdinentzat."
+		"eu": "Lehenago %NO% onespen onartu dituzu %OF% zerbitzu ezberdinentzat.",
+		"af": "U het vroe\u00ebr toestemming %NO% toegestaan vir %OF% verskillende dienste"
 	},
 	"info": {
 		"no": "Dersom du trekker tilbake alle tidligere gitte samtykker, s\u00e5 vil du hver gang du bes\u00f8ker en tjeneste p\u00e5 nytt bli spurt om du aksepterer at en gitt liste med personlig informasjon blir overf\u00f8rt til tjenesten.",
@@ -87,7 +89,8 @@
 		"ro": "Dac\u0103 anula\u021bi toate consim\u021b\u0103mintele acordate, de fiecare dat\u0103 c\u00e2nd accesa\u021bi un serviciu nou ve\u021bi fi \u00eentrebat dac\u0103 sunte\u021bi de acord ca o parte din informa\u021biile personale s\u0103 fie transferat\u0103.",
 		"ru": "\u0415\u0441\u043b\u0438 \u0432\u044b \u043e\u0442\u0437\u044b\u0432\u0430\u0435\u0442\u0435 \u0432\u0441\u0435 \u0440\u0430\u043d\u0435\u0435 \u0432\u044b\u0434\u0430\u043d\u043d\u044b\u0435 \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u044f, \u0442\u043e \u0432\u0430\u0441 \u0431\u0443\u0434\u0443\u0442 \u043e\u043f\u0440\u0430\u0448\u0438\u0432\u0430\u0442\u044c \u043e \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0438 \u0432\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437 \u043f\u0440\u0438 \u0432\u0430\u0448\u0435\u043c \u0434\u043e\u0441\u0442\u0443\u043f\u0435 \u043a \u043d\u043e\u0432\u043e\u0439 \u0441\u043b\u0443\u0436\u0431\u0435, \u0432\u043d\u0435 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438 \u043e\u0442 \u043f\u0440\u0438\u043d\u044f\u0442\u0438\u044f \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u043e \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0435 \u0434\u0430\u043d\u043d\u043e\u0433\u043e \u043d\u0430\u0431\u043e\u0440\u0430 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445.",
 		"cs": "Pokud zru\u0161\u00edte ve\u0161ker\u00e1 ud\u011blen\u00e1 povolen\u00ed, budete p\u0159i ka\u017ed\u00e9 n\u00e1v\u0161t\u011bv\u011b nov\u00e9 slu\u017eby dot\u00e1z\u00e1ni, zda souhlas\u00edte \u010di nesouhlas\u00edte s p\u0159enosem ur\u010dit\u00e9 skupiny osobn\u00edch informac\u00ed.",
-		"eu": "Emandako onespen guztiak kentzen badituzu,zerbitzu berri bat bisitatzen duzun bakoitzean berriro galdetuko dizugu, datu multzo bat transferitua izatea onartu edo baztertzen duzun alde batera utzita."
+		"eu": "Emandako onespen guztiak kentzen badituzu,zerbitzu berri bat bisitatzen duzun bakoitzean berriro galdetuko dizugu, datu multzo bat transferitua izatea onartu edo baztertzen duzun alde batera utzita.",
+		"af": "Indien u alle toestemming terugtrek, sal u telkens by elke besoek aan 'n nuwe diens gevra word of u aanvaar dat 'n gegewe stel persoonlike inligting oorgedra word"
 	},
 	"withdraw": {
 		"no": "Trekk tilbake alle tidligere gitte samtykker",
@@ -117,7 +120,8 @@
 		"sr": "Povuci sva odobrenja",
 		"ro": "Retrage toate consim\u021b\u0103mintele",
 		"ru": "\u0412\u044b\u0434\u0430\u043d \u043e\u0442\u043a\u0430\u0437 \u043e\u0442 \u0432\u0441\u0435\u0445 \u0440\u0430\u043d\u0435\u0435 \u0432\u044b\u0434\u0430\u043d\u043d\u044b\u0445 \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0439",
-		"cs": "Zru\u0161it ve\u0161ker\u00e1 ud\u011blen\u00e1 povolen\u00ed"
+		"cs": "Zru\u0161it ve\u0161ker\u00e1 ud\u011blen\u00e1 povolen\u00ed",
+		"af": "Trek alle toestemming terug"
 	},
 	"headerstats": {
 		"no": "Samtykke statistikk",
@@ -147,7 +151,8 @@
 		"ro": "Statistici despre stocarea consim\u021b\u0103mintelor",
 		"ru": "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0439",
 		"cs": "Statistika ulo\u017een\u00fdch povolen\u00ed",
-		"eu": "Biltegiratutako onespenen estatistikak"
+		"eu": "Biltegiratutako onespenen estatistikak",
+		"af": "Statistiek rakende toestemmingsberging"
 	},
 	"stattotal": {
 		"no": "Samtykkelageret inneholder %NO% innslag.",
@@ -177,7 +182,8 @@
 		"ro": "Zona de stocare a consim\u021b\u0103mintelor con\u021bine %NO% intr\u0103ri.",
 		"ru": "\u0425\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0439 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442 %NO% \u0437\u0430\u043f\u0438\u0441\u0435\u0439.",
 		"cs": "\u00dalo\u017ei\u0161t\u011b povolen\u00ed obsahuje %NO% z\u00e1znam\u016f.",
-		"eu": "Onespenen biltegiak %NO% sarrera ditu."
+		"eu": "Onespenen biltegiak %NO% sarrera ditu.",
+		"af": "Toestemmingsberging bevat inskrywings."
 	},
 	"statusers": {
 		"no": "%NO% unike brukere har avgitt samtykke.",
@@ -207,7 +213,8 @@
 		"ro": "Un num\u0103r de %NO% utilizatori au fost de acord.",
 		"ru": "%NO% \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0445 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439 \u0434\u0430\u043b\u0438 \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435.",
 		"cs": "%NO% unik\u00e1tn\u00edch u\u017eivatel\u016f ud\u011blilo povolen\u00ed.",
-		"eu": "%NO% erabiltzailek bere onespena eman dute."
+		"eu": "%NO% erabiltzailek bere onespena eman dute.",
+		"af": "%NO% unieke gebruikers het toestemming gegee."
 	},
 	"statservices": {
 		"no": "Samtykke er avgitt til %NO% unike tjenester.",
@@ -237,6 +244,7 @@
 		"ro": "Consim\u021b\u0103m\u00e2ntul a fost acordat pentru %NO% servicii.",
 		"ru": "\u0421\u043e\u0433\u043b\u0430\u0441\u0438\u0435 \u0434\u0430\u043d\u043e %NO% \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u043c \u0441\u0435\u0440\u0432\u0438\u0441\u0430\u043c.",
 		"cs": "Povolen\u00ed ud\u011bleno %NO% unik\u00e1tn\u00edm slu\u017eb\u00e1m.",
-		"eu": "Onespena %NO% zerbitzu ezberdinei emana."
+		"eu": "Onespena %NO% zerbitzu ezberdinei emana.",
+		"af": "Toestemming is aan %NO%  unieke dienste gegee."
 	}
 }
