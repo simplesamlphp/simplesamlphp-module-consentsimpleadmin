@@ -58,7 +58,7 @@ $consent_storage = sspmod_consent_Store::parseStoreConfig($consentconfig->getVal
 $hashed_user_id = sspmod_consent_Auth_Process_Consent::getHashedUserID($userid, $source);
 
 
-// Check if button with withdraw all consent was clicked.
+// Check if button with withdraw all consent was clicked
 if (array_key_exists('withdraw', $_REQUEST)) {
 
     SimpleSAML_Logger::info('consentAdmin: UserID ['.$hashed_user_id.'] has requested to withdraw all consents given...');

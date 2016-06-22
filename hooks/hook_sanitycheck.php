@@ -15,7 +15,7 @@ function consentSimpleAdmin_hook_sanitycheck(&$hookinfo) {
 		$consent_storage = sspmod_consent_Store::parseStoreConfig($consentconfig->getValue('store'));
 
 		if (!is_callable(array($consent_storage, 'selftest'))) {
-			/* Doesn't support a selftest. */
+			// Doesn't support a selftest
 			return;
 		}
 		$testres = $consent_storage->selftest();
