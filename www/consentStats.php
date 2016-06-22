@@ -8,6 +8,7 @@
  * @package SimpleSAMLphp
  */
 
+SimpleSAML\Utils\Auth::requireAdmin();
 
 // Get config object
 $config = SimpleSAML_Configuration::getInstance();
