@@ -46,7 +46,7 @@ if ($as->getAuthData('saml:sp:IdP') !== null) {
     $idp_metadata = $metadata->getMetaData($idp_entityid, 'saml20-idp-hosted');
 }
 
-SimpleSAML_Logger::debug('consentAdmin: IdP is ['.$idp_entityid.']');
+\SimpleSAML\Logger::debug('consentAdmin: IdP is ['.$idp_entityid.']');
 
 $source = $idp_metadata['metadata-set'].'|'.$idp_entityid;
 
@@ -61,7 +61,7 @@ $hashed_user_id = sspmod_consent_Auth_Process_Consent::getHashedUserID($userid, 
 // Check if button with withdraw all consent was clicked
 if (array_key_exists('withdraw', $_REQUEST)) {
 
-    SimpleSAML_Logger::info('consentAdmin: UserID ['.$hashed_user_id.'] has requested to withdraw all consents given...');
+    \SimpleSAML\Logger::info('consentAdmin: UserID ['.$hashed_user_id.'] has requested to withdraw all consents given...');
 
     $consent_storage->deleteAllConsents($hashed_user_id);
 }
@@ -75,7 +75,7 @@ foreach ($user_consent_list AS $c) {
     $consentServices[$c[1]] = 1;
 }
 
-SimpleSAML_Logger::debug('consentAdmin: no of consents ['.count($user_consent_list).'] no of services ['.count($consentServices).']');
+\SimpleSAML\Logger::debug('consentAdmin: no of consents ['.count($user_consent_list).'] no of services ['.count($consentServices).']');
 
 // Init template
 $t = new SimpleSAML_XHTML_Template($config, 'consentSimpleAdmin:consentadmin.php');

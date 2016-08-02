@@ -9,11 +9,11 @@ function consentSimpleAdmin_hook_frontpage(&$links) {
 	assert('array_key_exists("links", $links)');
 
 	$links['config'][] = array(
-		'href' => SimpleSAML_Module::getModuleURL('consentSimpleAdmin/consentAdmin.php'),
+		'href' => \SimpleSAML\Module::getModuleURL('consentSimpleAdmin/consentAdmin.php'),
 		'text' => '{consentSimpleAdmin:consentsimpleadmin:header}',
 	);
 	$links['config'][] = array(
-		'href' => SimpleSAML_Module::getModuleURL('consentSimpleAdmin/consentStats.php'),
+		'href' => \SimpleSAML\Module::getModuleURL('consentSimpleAdmin/consentStats.php'),
 		'text' => '{consentSimpleAdmin:consentsimpleadmin:headerstats}',
 	);
 	
