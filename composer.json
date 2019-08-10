@@ -19,6 +19,10 @@
     },
     "require": {
         "simplesamlphp/composer-module-installer": "~1.0"
+    },
+    "require-dev": {
+        "simplesamlphp/simplesamlphp": "~1.17",
+        "simplesamlphp/simplesamlphp-test-framework": "~0.0.10"
     }
 }
 
