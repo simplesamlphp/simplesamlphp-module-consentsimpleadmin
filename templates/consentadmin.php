@@ -5,14 +5,12 @@ $this->includeAtTemplateBase('includes/header.php');
 
 ?>
 
-
-
 <p><?php
 
-echo '<p>' . $this->t('{consentSimpleAdmin:consentsimpleadmin:granted}', array(
+echo '<p>' . $this->t('{consentSimpleAdmin:consentsimpleadmin:granted}', [
 	'%NO%' => (string)$this->data['consents'],
 	'%OF%' => (string)$this->data['consentServices'],
-)) . '</p>';
+]) . '</p>';
 
 
 echo '<p>' . $this->t('{consentSimpleAdmin:consentsimpleadmin:info}') . '</p>';

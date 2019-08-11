@@ -19,6 +19,7 @@
     },
     "require": {
         "simplesamlphp/composer-module-installer": "~1.0"
+        "simplesamlphp/composer-module-consent": "~1.0"
     },
     "require-dev": {
         "simplesamlphp/simplesamlphp": "~1.17",

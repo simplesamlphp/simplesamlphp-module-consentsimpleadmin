@@ -4,17 +4,17 @@
  *
  * @param array &$links  The links on the frontpage, split into sections.
  */
-function consentSimpleAdmin_hook_frontpage(&$links) {
-	assert('is_array($links)');
-	assert('array_key_exists("links", $links)');
+function consentSimpleAdmin_hook_frontpage(&$links)
+{
+    assert('is_array($links)');
+    assert('array_key_exists("links", $links)');
 
-	$links['config'][] = array(
-		'href' => \SimpleSAML\Module::getModuleURL('consentSimpleAdmin/consentAdmin.php'),
-		'text' => '{consentSimpleAdmin:consentsimpleadmin:header}',
-	);
-	$links['config'][] = array(
-		'href' => \SimpleSAML\Module::getModuleURL('consentSimpleAdmin/consentStats.php'),
-		'text' => '{consentSimpleAdmin:consentsimpleadmin:headerstats}',
-	);
-	
+    $links['config'][] = [
+        'href' => \SimpleSAML\Module::getModuleURL('consentSimpleAdmin/consentAdmin.php'),
+        'text' => '{consentSimpleAdmin:consentsimpleadmin:header}',
+    ];
+    $links['config'][] = [
+        'href' => \SimpleSAML\Module::getModuleURL('consentSimpleAdmin/consentStats.php'),
+        'text' => '{consentSimpleAdmin:consentsimpleadmin:headerstats}',
+    ];
 }

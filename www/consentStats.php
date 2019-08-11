@@ -8,21 +8,21 @@
  * @package SimpleSAMLphp
  */
 
-SimpleSAML\Utils\Auth::requireAdmin();
+\SimpleSAML\Utils\Auth::requireAdmin();
 
 // Get config object
-$config = SimpleSAML_Configuration::getInstance();
-$consentconfig = SimpleSAML_Configuration::getConfig('module_consentSimpleAdmin.php');
+$config = \SimpleSAML\Configuration::getInstance();
+$consentconfig = \impleSAML\Configuration::getConfig('module_consentSimpleAdmin.php');
 
 
 // Parse consent config
-$consent_storage = sspmod_consent_Store::parseStoreConfig($consentconfig->getValue('store'));
+$consent_storage = \SimpleSAML\Module\consent\Store::parseStoreConfig($consentconfig->getValue('store'));
 
 // Get all consents for user
 $stats = $consent_storage->getStatistics();
 
 // Init template
-$t = new SimpleSAML_XHTML_Template($config, 'consentSimpleAdmin:consentstats.php');
+$t = new \SimpleSAML\XHTML\Template($config, 'consentSimpleAdmin:consentstats.php');
 
 $t->data['stats'] = $stats;
 

@@ -5,14 +5,11 @@ $this->includeAtTemplateBase('includes/header.php');
 
 ?>
 
-
 <p><?php
 
-echo '<p>' . $this->t('{consentSimpleAdmin:consentsimpleadmin:stattotal}', array('%NO%' => $this->data['stats']['total'])) . '</p>';
-echo '<p>' . $this->t('{consentSimpleAdmin:consentsimpleadmin:statusers}', array('%NO%' => $this->data['stats']['users'])) . '</p>';
-echo '<p>' . $this->t('{consentSimpleAdmin:consentsimpleadmin:statservices}', array('%NO%' => $this->data['stats']['services'])) . '</p>';
-
-
+echo '<p>' . $this->t('{consentSimpleAdmin:consentsimpleadmin:stattotal}', ['%NO%' => $this->data['stats']['total']]) . '</p>';
+echo '<p>' . $this->t('{consentSimpleAdmin:consentsimpleadmin:statusers}', ['%NO%' => $this->data['stats']['users']]) . '</p>';
+echo '<p>' . $this->t('{consentSimpleAdmin:consentsimpleadmin:statservices}', ['%NO%' => $this->data['stats']['services']]) . '</p>';
 
 ?></p>
 
