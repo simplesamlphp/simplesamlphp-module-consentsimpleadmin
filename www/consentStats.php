@@ -12,7 +12,7 @@
 
 // Get config object
 $config = \SimpleSAML\Configuration::getInstance();
-$consentconfig = \impleSAML\Configuration::getConfig('module_consentSimpleAdmin.php');
+$consentconfig = \SimpleSAML\Configuration::getConfig('module_consentSimpleAdmin.php');
 
 
 // Parse consent config

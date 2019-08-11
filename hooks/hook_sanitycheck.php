@@ -2,6 +2,7 @@
 /**
  *
  * @param array &$hookinfo  hookinfo
+ * @return void
  */
 function consentSimpleAdmin_hook_sanitycheck(&$hookinfo)
 {

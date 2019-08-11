@@ -3,6 +3,7 @@
  * Hook to add the simple consenet admin module to the frontpage.
  *
  * @param array &$links  The links on the frontpage, split into sections.
+ * @return void
  */
 function consentSimpleAdmin_hook_frontpage(&$links)
 {
