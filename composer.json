@@ -18,7 +18,7 @@
         "ssp-mixedcase-module-name": "consentSimpleAdmin"
     },
     "require": {
-        "simplesamlphp/composer-module-installer": "~1.0"
+        "simplesamlphp/composer-module-installer": "~1.0",
         "simplesamlphp/composer-module-consent": "~1.0"
     },
     "require-dev": {
