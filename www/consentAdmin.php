@@ -36,9 +36,9 @@ $userid = $attributes[$userid_attributename][0];
 $metadata = \SimpleSAML\Metadata\MetaDataStorageHandler::getMetadataHandler();
 
 // Get IdP id and metadata
-if ($as->getAuthData('saml:sp:IdP') !== null) {
+$idp_entityid = $as->getAuthData('saml:sp:IdP');
+if ($idp_entityid !== null) {
     // From a remote idp (as bridge)
-    $idp_entityid = $as->getAuthData('saml:sp:IdP');
     $idp_metadata = $metadata->getMetaData($idp_entityid, 'saml20-idp-remote');
 } else {
     // from the local idp
