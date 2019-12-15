@@ -18,12 +18,12 @@
         "ssp-mixedcase-module-name": "consentSimpleAdmin"
     },
     "require": {
-        "simplesamlphp/composer-module-installer": "~1.0",
+        "simplesamlphp/composer-module-installer": "~1.1",
         "simplesamlphp/simplesamlphp-module-consent": "~1.0"
     },
     "require-dev": {
-        "simplesamlphp/simplesamlphp": "~1.17",
-        "simplesamlphp/simplesamlphp-test-framework": "~0.0.10"
+        "simplesamlphp/simplesamlphp": "~1.18",
+        "simplesamlphp/simplesamlphp-test-framework": "~0.1.0"
     }
 }
 
