@@ -1,5 +1,6 @@
 <?php
-/*
+
+/**
  * consentSimpleAdmin - Simple Consent administration module
  *
  * shows statistics.
@@ -22,9 +23,21 @@ $consent_storage = \SimpleSAML\Module\consent\Store::parseStoreConfig($consentco
 $stats = $consent_storage->getStatistics();
 
 // Init template
-$t = new \SimpleSAML\XHTML\Template($config, 'consentSimpleAdmin:consentstats.php');
+$t = new \SimpleSAML\XHTML\Template($config, 'consentSimpleAdmin:consentstats.twig');
+$translator = $t->getTranslator();
 
 $t->data['stats'] = $stats;
+$t->data['total'] = $translator->t(
+    '{consentSimpleAdmin:consentsimpleadmin:stattotal}',
+    ['%NO%' => $t->data['stats']['total']]
+);
+$t->data['statusers'] = $translator->t(
+    '{consentSimpleAdmin:consentsimpleadmin:statusers}',
+    ['%NO%' => $t->data['stats']['users']]
+);
+$t->data['statservices'] = $translator->t(
+    '{consentSimpleAdmin:consentsimpleadmin:statservices}',
+    ['%NO%' => $t->data['stats']['services']]
+);
 
-
-$t->show();
+$t->send();

@@ -1,0 +1,46 @@
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSAMLphp 1.15\n"
+"Report-Msgid-Bugs-To: simplesamlphp-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-02-19 20:01+0100\n"
+"PO-Revision-Date: 2020-02-19 20:01+0100\n"
+"Last-Translator: \n"
+"Language: es\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+msgid "{consentsimpleadmin:header}"
+msgstr "Retirar consentimiento"
+
+msgid "{consentsimpleadmin:granted}"
+msgstr ""
+"Anteriormente permitió %NO% consentimientos para %OF% servicios "
+"diferentes."
+
+msgid "{consentsimpleadmin:info}"
+msgstr ""
+"Si retira todos los consentimientos concedidos, se le preguntará de nuevo"
+" cada vez que visite un nuevo servicio, independientemente de que acepte "
+"o rechace que un conjunto de datos personales sean transferidos."
+
+msgid "{consentsimpleadmin:withdraw}"
+msgstr "Retirar todos los consentimientos concedidos"
+
+msgid "{consentsimpleadmin:headerstats}"
+msgstr "Estadísticas de consentimientos almacenados"
+
+msgid "{consentsimpleadmin:statusers}"
+msgstr "%NO% usuarios han dado su consentimiento."
+
+msgid "{consentsimpleadmin:statservices}"
+msgstr "Consentimiento dado a %NO% servicios diferentes."
+
+msgid "{consentsimpleadmin:stattotal}"
+msgstr "El almacén de consentimientos tiene %NO% entradas."
+

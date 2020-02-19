@@ -1,9 +1,8 @@
 <?php
 
-
 $config = [
     'store'  => [
-        'consent:Database', 
+        'consent:Database',
         'dsn' => 'pgsql:host=sql.uninett.no;dbname=andreas_consent',
         'username' => 'simplesaml',
         'password' => 'xxxx',

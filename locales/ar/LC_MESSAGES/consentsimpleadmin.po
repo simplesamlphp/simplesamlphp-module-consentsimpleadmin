@@ -1,0 +1,44 @@
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSAMLphp 1.15\n"
+"Report-Msgid-Bugs-To: simplesamlphp-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-02-19 20:01+0100\n"
+"PO-Revision-Date: 2020-02-19 20:01+0100\n"
+"Last-Translator: \n"
+"Language: ar\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+msgid "{consentsimpleadmin:header}"
+msgstr "الغاء الموافقة"
+
+msgid "{consentsimpleadmin:granted}"
+msgstr "لقد قمت بإعطاء ٪عدد٪ موافقة ل ٪ل٪ الخدمات المختلفة"
+
+msgid "{consentsimpleadmin:info}"
+msgstr ""
+"اذا قمت بإلغاء جميع الموافقات الممنوحة سيتم سؤالك كلما دخلت لخدمة جديدة "
+"عن قبولك او رفضك لتحويل بعض معلوماتك الشخصية"
+
+msgid "{consentsimpleadmin:withdraw}"
+msgstr "الغ كل الموافقات الممنوحة"
+
+msgid "{consentsimpleadmin:headerstats}"
+msgstr "احصائيات الموافقات المختزنة"
+
+msgid "{consentsimpleadmin:statusers}"
+msgstr "٪عدد٪ مستخدم فريد اعطي موافقته"
+
+msgid "{consentsimpleadmin:statservices}"
+msgstr "تم إعطاء موافقة ل٪عدد٪ مخدم فريد"
+
+msgid "{consentsimpleadmin:stattotal}"
+msgstr "مستودع الموافقات يحتوي علي ٪عدد٪ ادخال"
+

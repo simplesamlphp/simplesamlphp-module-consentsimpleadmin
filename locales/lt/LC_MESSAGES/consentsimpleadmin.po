@@ -1,0 +1,45 @@
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSAMLphp 1.15\n"
+"Report-Msgid-Bugs-To: simplesamlphp-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-02-19 20:01+0100\n"
+"PO-Revision-Date: 2020-02-19 20:01+0100\n"
+"Last-Translator: \n"
+"Language: lt\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+msgid "{consentsimpleadmin:header}"
+msgstr "Leidimo atšaukimas"
+
+msgid "{consentsimpleadmin:granted}"
+msgstr "Jūs anksčiau suteikėte %NO% ledimus %OF% įvairioms paslaugoms."
+
+msgid "{consentsimpleadmin:info}"
+msgstr ""
+"Jei atšauksime visus suteiktus leidimus, kiekvieną kartą kai lankysite "
+"naują paslaugą  vėl būsite klausiamas, ar sutinkate, kad būtų perduodamas"
+" duotasis asmeninės informacijos rinkinys."
+
+msgid "{consentsimpleadmin:withdraw}"
+msgstr "Atšaukti visus suteiktus leidimus"
+
+msgid "{consentsimpleadmin:headerstats}"
+msgstr "Leidimų Saugyklos Statistika"
+
+msgid "{consentsimpleadmin:statusers}"
+msgstr "%NO% unikalių naudotojų suteikė leidimą."
+
+msgid "{consentsimpleadmin:statservices}"
+msgstr "Leidimas suteiktas %NO% unikalioms paslaugoms."
+
+msgid "{consentsimpleadmin:stattotal}"
+msgstr "Leidimų saugyklose yra %NO% įrašų."
+

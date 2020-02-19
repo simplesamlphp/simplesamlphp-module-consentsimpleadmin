@@ -1,0 +1,43 @@
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSAMLphp 1.15\n"
+"Report-Msgid-Bugs-To: simplesamlphp-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-02-19 20:01+0100\n"
+"PO-Revision-Date: 2020-02-19 20:01+0100\n"
+"Last-Translator: \n"
+"Language: da\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+msgid "{consentsimpleadmin:header}"
+msgstr "Samtykke tilbagekaldelse"
+
+msgid "{consentsimpleadmin:granted}"
+msgstr "Du har tidligere givet %NO% samtykker til %OF% forskellige services."
+
+msgid "{consentsimpleadmin:info}"
+msgstr ""
+"Hvis du tilbagekalder alle dine samtykker, så vil du blive spurgt om at "
+"afgive samtykke hver gang du tilgår en ny tjeneste."
+
+msgid "{consentsimpleadmin:withdraw}"
+msgstr "Tilbagekald alle samtykker"
+
+msgid "{consentsimpleadmin:headerstats}"
+msgstr "Samtykkelager statestik"
+
+msgid "{consentsimpleadmin:statusers}"
+msgstr "%NO% unikke brugere har givet samtykke"
+
+msgid "{consentsimpleadmin:statservices}"
+msgstr "Samtykke er givet til %NO% unikke services."
+
+msgid "{consentsimpleadmin:stattotal}"
+msgstr "Samtykkelager indeholder %NO% samtykker."
+

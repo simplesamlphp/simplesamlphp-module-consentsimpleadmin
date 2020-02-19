@@ -1,5 +1,6 @@
 <?php
-/*
+
+/**
  * consentSimpleAdmin - Simple Consent administration module
  *
  * This module is a simplification of the danish consent administration module.
@@ -9,7 +10,6 @@
  * @author Jacob Christiansen - WAYF
  * @package SimpleSAMLphp
  */
-
 
 // Get config object
 $config = \SimpleSAML\Configuration::getInstance();
@@ -26,8 +26,8 @@ $attributes = $as->getAttributes();
 // Get user ID
 $userid_attributename = $consentconfig->getValue('userid', 'eduPersonPrincipalName');
 if (empty($attributes[$userid_attributename])) {
-    throw new \Exception('Could not generate useridentifier for storing consent. Attribute ['.
-        $userid_attributename.'] was not available.');
+    throw new \Exception('Could not generate useridentifier for storing consent. Attribute [' .
+        $userid_attributename . '] was not available.');
 }
 
 $userid = $attributes[$userid_attributename][0];
@@ -46,9 +46,9 @@ if ($idp_entityid !== null) {
     $idp_metadata = $metadata->getMetaData($idp_entityid, 'saml20-idp-hosted');
 }
 
-\SimpleSAML\Logger::debug('consentAdmin: IdP is ['.$idp_entityid.']');
+\SimpleSAML\Logger::debug('consentAdmin: IdP is [' . $idp_entityid . ']');
 
-$source = $idp_metadata['metadata-set'].'|'.$idp_entityid;
+$source = $idp_metadata['metadata-set'] . '|' . $idp_entityid;
 
 // Parse consent config
 $consent_storage = \SimpleSAML\Module\consent\Store::parseStoreConfig($consentconfig->getValue('store'));
@@ -59,8 +59,9 @@ $hashed_user_id = \SimpleSAML\Module\consent\Auth\Process\Consent::getHashedUser
 
 // Check if button with withdraw all consent was clicked
 if (array_key_exists('withdraw', $_REQUEST)) {
-
-    \SimpleSAML\Logger::info('consentAdmin: UserID ['.$hashed_user_id.'] has requested to withdraw all consents given...');
+    \SimpleSAML\Logger::info(
+        'consentAdmin: UserID [' . $hashed_user_id . '] has requested to withdraw all consents given...'
+    );
 
     $consent_storage->deleteAllConsents($hashed_user_id);
 }
@@ -74,13 +75,18 @@ foreach ($user_consent_list as $c) {
     $consentServices[$c[1]] = 1;
 }
 
-\SimpleSAML\Logger::debug('consentAdmin: no of consents ['.count($user_consent_list).'] no of services ['.count($consentServices).']');
+\SimpleSAML\Logger::debug(
+    'consentAdmin: no of consents [' . count($user_consent_list) . '] no of services [' . count($consentServices) . ']'
+);
 
 // Init template
-$t = new \SimpleSAML\XHTML\Template($config, 'consentSimpleAdmin:consentadmin.php');
+$t = new \SimpleSAML\XHTML\Template($config, 'consentSimpleAdmin:consentadmin.twig');
 
 $t->data['consentServices'] = count($consentServices);
 $t->data['consents'] = count($user_consent_list);
+$t->data['granted'] = $t->getTranslator()->t('{consentSimpleAdmin:consentsimpleadmin:granted}', [
+        '%NO%' => (string)$this->data['consents'],
+        '%OF%' => (string)$this->data['consentServices'],
+]);
 
-
-$t->show();
+$t->send();

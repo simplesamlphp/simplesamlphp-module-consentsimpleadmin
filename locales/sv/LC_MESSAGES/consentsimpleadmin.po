@@ -1,0 +1,44 @@
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSAMLphp 1.15\n"
+"Report-Msgid-Bugs-To: simplesamlphp-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-02-19 20:01+0100\n"
+"PO-Revision-Date: 2020-02-19 20:01+0100\n"
+"Last-Translator: \n"
+"Language: sv\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+msgid "{consentsimpleadmin:header}"
+msgstr "Återtagande av samtycke"
+
+msgid "{consentsimpleadmin:granted}"
+msgstr "Du har tidigare godkänt %NO% samtycken till %OF% olika tjänster."
+
+msgid "{consentsimpleadmin:info}"
+msgstr ""
+"Om du drar tillbaka alla samtycken som du godkänt kommer du åter bli "
+"tillfrågad när du besöker tjänsterna för första gången oberoende om du "
+"vill eller inte vill godkänna att personuppgifter överförs."
+
+msgid "{consentsimpleadmin:withdraw}"
+msgstr "Dra tillbaka alla godkända samtycken"
+
+msgid "{consentsimpleadmin:headerstats}"
+msgstr "Statistik för lagret över samtycken"
+
+msgid "{consentsimpleadmin:statusers}"
+msgstr "%NO% unika användare har lämnat samtycken."
+
+msgid "{consentsimpleadmin:statservices}"
+msgstr "Samtycken är lämnade för %NO% unika tjänster."
+
+msgid "{consentsimpleadmin:stattotal}"
+msgstr "Lagret innehåller %NO% samtycken."
+

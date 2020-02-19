@@ -1,0 +1,45 @@
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSAMLphp 1.15\n"
+"Report-Msgid-Bugs-To: simplesamlphp-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-02-19 20:01+0100\n"
+"PO-Revision-Date: 2020-02-19 20:01+0100\n"
+"Last-Translator: \n"
+"Language: nn\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+msgid "{consentsimpleadmin:header}"
+msgstr "Tilbaketrekking av samtykke"
+
+msgid "{consentsimpleadmin:granted}"
+msgstr "Du har tidlegare gjeve %NO% samtykke til %OF% ulike tenester."
+
+msgid "{consentsimpleadmin:info}"
+msgstr ""
+"Dersom du trekk tilbake samtykke, blir du spurd ved neste innlogging om "
+"du er villig til å overføra informasjon til tenesta.  Dette skjer før "
+"innlogging og inneber ikkje at tenesta ser informasjon, men du får vist "
+"fram kva som blir overført."
+
+msgid "{consentsimpleadmin:withdraw}"
+msgstr "Trekk tilbake alle samtykke"
+
+msgid "{consentsimpleadmin:headerstats}"
+msgstr "Statistikk for samtykke"
+
+msgid "{consentsimpleadmin:statusers}"
+msgstr "%NO% unike brukarar har gjeve samtykke."
+
+msgid "{consentsimpleadmin:statservices}"
+msgstr "Samtykke er gjeve til %NO% unike tenester"
+
+msgid "{consentsimpleadmin:stattotal}"
+msgstr "Samtykkelageret har %NO% innslag."
+

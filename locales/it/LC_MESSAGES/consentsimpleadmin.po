@@ -1,0 +1,44 @@
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSAMLphp 1.15\n"
+"Report-Msgid-Bugs-To: simplesamlphp-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-02-19 20:01+0100\n"
+"PO-Revision-Date: 2020-02-19 20:01+0100\n"
+"Last-Translator: \n"
+"Language: it\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+msgid "{consentsimpleadmin:header}"
+msgstr "Ritirare il consenso"
+
+msgid "{consentsimpleadmin:granted}"
+msgstr "Hai precedentemente dato %NO% consensi a %OF% diversi servizi."
+
+msgid "{consentsimpleadmin:info}"
+msgstr ""
+"Se ritiri tutti i consensi forniti, ogni volta che visiterai un nuovo "
+"servizio, ti verrà chiesto se vorrai trasferire un insieme di "
+"informazioni personali."
+
+msgid "{consentsimpleadmin:withdraw}"
+msgstr "Ritira tutti i consensi forniti"
+
+msgid "{consentsimpleadmin:headerstats}"
+msgstr "Statistiche sui consensi memorizzati"
+
+msgid "{consentsimpleadmin:statusers}"
+msgstr "%NO% distinti utenti hanno dato il consenso."
+
+msgid "{consentsimpleadmin:statservices}"
+msgstr "Il consenso è stato dato a %NO% servizi distinti."
+
+msgid "{consentsimpleadmin:stattotal}"
+msgstr "Immagazzinati consensi per %NO% voci."
+

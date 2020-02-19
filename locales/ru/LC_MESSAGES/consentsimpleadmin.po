@@ -1,0 +1,45 @@
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSAMLphp 1.15\n"
+"Report-Msgid-Bugs-To: simplesamlphp-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-02-19 20:01+0100\n"
+"PO-Revision-Date: 2020-02-19 20:01+0100\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+msgid "{consentsimpleadmin:header}"
+msgstr "Отозвать согласие"
+
+msgid "{consentsimpleadmin:granted}"
+msgstr "Вы ранее предоставили согласие %NO% для различных %OF% служб."
+
+msgid "{consentsimpleadmin:info}"
+msgstr ""
+"Если вы отзываете все ранее выданные согласия, то вас будут опрашивать о "
+"согласии всякий раз при вашем доступе к новой службе, вне зависимости от "
+"принятия условия о передаче данного набора персональных данных."
+
+msgid "{consentsimpleadmin:withdraw}"
+msgstr "Выдан отказ от всех ранее выданных согласий"
+
+msgid "{consentsimpleadmin:headerstats}"
+msgstr "Статистика сохранения согласий"
+
+msgid "{consentsimpleadmin:statusers}"
+msgstr "%NO% уникальных пользователей дали согласие."
+
+msgid "{consentsimpleadmin:statservices}"
+msgstr "Согласие дано %NO% уникальным сервисам."
+
+msgid "{consentsimpleadmin:stattotal}"
+msgstr "Хранилище согласий содержит %NO% записей."
+

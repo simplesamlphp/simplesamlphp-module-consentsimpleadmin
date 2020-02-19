@@ -1,14 +1,14 @@
 <?php
+
 /**
  * Hook to add the simple consenet admin module to the frontpage.
  *
  * @param array &$links  The links on the frontpage, split into sections.
  * @return void
  */
-function consentSimpleAdmin_hook_frontpage(&$links)
+function consentSimpleAdmin_hook_frontpage(array &$links)
 {
-    assert('is_array($links)');
-    assert('array_key_exists("links", $links)');
+    assert(array_key_exists("links", $links));
 
     $links['config'][] = [
         'href' => \SimpleSAML\Module::getModuleURL('consentSimpleAdmin/consentAdmin.php'),

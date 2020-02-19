@@ -1,0 +1,44 @@
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSAMLphp 1.15\n"
+"Report-Msgid-Bugs-To: simplesamlphp-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-02-19 20:01+0100\n"
+"PO-Revision-Date: 2020-02-19 20:01+0100\n"
+"Last-Translator: \n"
+"Language: af\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+msgid "{consentsimpleadmin:header}"
+msgstr "Terugtrekking van toestemming"
+
+msgid "{consentsimpleadmin:granted}"
+msgstr "U het vroeër toestemming %NO% toegestaan vir %OF% verskillende dienste"
+
+msgid "{consentsimpleadmin:info}"
+msgstr ""
+"Indien u alle toestemming terugtrek, sal u telkens by elke besoek aan 'n "
+"nuwe diens gevra word of u aanvaar dat 'n gegewe stel persoonlike "
+"inligting oorgedra word"
+
+msgid "{consentsimpleadmin:withdraw}"
+msgstr "Trek alle toestemming terug"
+
+msgid "{consentsimpleadmin:headerstats}"
+msgstr "Statistiek rakende toestemmingsberging"
+
+msgid "{consentsimpleadmin:statusers}"
+msgstr "%NO% unieke gebruikers het toestemming gegee."
+
+msgid "{consentsimpleadmin:statservices}"
+msgstr "Toestemming is aan %NO%  unieke dienste gegee."
+
+msgid "{consentsimpleadmin:stattotal}"
+msgstr "Toestemmingsberging bevat inskrywings."
+

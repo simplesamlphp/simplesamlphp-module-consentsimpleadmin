@@ -1,14 +1,13 @@
 <?php
+
 /**
- *
  * @param array &$hookinfo  hookinfo
  * @return void
  */
-function consentSimpleAdmin_hook_sanitycheck(&$hookinfo)
+function consentSimpleAdmin_hook_sanitycheck(array &$hookinfo)
 {
-    assert('is_array($hookinfo)');
-    assert('array_key_exists("errors", $hookinfo)');
-    assert('array_key_exists("info", $hookinfo)');
+    assert(array_key_exists("errors", $hookinfo));
+    assert(array_key_exists("info", $hookinfo));
 
     try {
         $consentconfig = \SimpleSAML\Configuration::getConfig('module_consentSimpleAdmin.php');
@@ -27,6 +26,6 @@ function consentSimpleAdmin_hook_sanitycheck(&$hookinfo)
             $hookinfo['errors'][] = '[consentSimpleAdmin] Consent Storage selftest failed.';
         }
     } catch (\Exception $e) {
-        $hookinfo['errors'][] = '[consentSimpleAdmin] Error connecting to storage: '.$e->getMessage();
+        $hookinfo['errors'][] = '[consentSimpleAdmin] Error connecting to storage: ' . $e->getMessage();
     }
 }
