@@ -5,9 +5,6 @@
  *
  * This module is a simplification of the danish consent administration module.
  *
- * @author Andreas Åkre Solberg <andreas.solberg@uninett.no>
- * @author Mads Freek - WAYF
- * @author Jacob Christiansen - WAYF
  * @package SimpleSAMLphp
  */
 
