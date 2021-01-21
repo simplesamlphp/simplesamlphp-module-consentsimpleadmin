@@ -1,3 +1,7 @@
+![Build Status](https://github.com/simplesamlphp/simplesamlphp-module-consentsimpleadmin/workflows/CI/badge.svg?branch=master)
+[![Coverage Status](https://codecov.io/gh/simplesamlphp/simplesamlphp-module-consentsimpleadmin/branch/master/graph/badge.svg)](https://codecov.io/gh/simplesamlphp/simplesamlphp-module-consentsimpleadmin)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/simplesamlphp/simplesamlphp-module-consentsimpleadmin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/simplesamlphp/simplesamlphp-module-consentsimpleadmin/?branch=master)
+
 Consent Simple Admin module
 ===========================
 
