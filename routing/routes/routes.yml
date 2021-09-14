@@ -1,0 +1,6 @@
+consentsimpleadmin-admin:
+    path:       /admin
+    defaults:   { _controller: 'SimpleSAML\Module\consentsimpleadmin\Controller\Admin::admin' }
+consentsimpleadmin-stats:
+    path:       /stats
+    defaults:   { _controller: 'SimpleSAML\Module\consentsimpleadmin\Controller\Stats::stats' }
