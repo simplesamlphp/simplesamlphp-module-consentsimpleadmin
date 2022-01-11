@@ -3,7 +3,7 @@
 /**
  * @param array &$hookinfo  hookinfo
  */
-function consentSimpleAdmin_hook_sanitycheck(array &$hookinfo)
+function consentSimpleAdmin_hook_sanitycheck(array &$hookinfo): void
 {
     assert(array_key_exists("errors", $hookinfo));
     assert(array_key_exists("info", $hookinfo));
