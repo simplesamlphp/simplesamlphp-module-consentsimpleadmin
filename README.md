@@ -21,5 +21,12 @@ where `dev-master` instructs Composer to install the `master` branch from the Gi
 [releases](https://github.com/simplesamlphp/simplesamlphp-module-consentsimpleadmin/releases) available if you
 want to use a stable version of the module.
 
-The module is enabled by default. If you want to disable the module once installed, you just need to create a file named
-`disable` in the `modules/consentSimpleAdmin/` directory inside your SimpleSAMLphp installation.
+Next, you need to do is to enable the consentSimpleAdmin module: in
+`config.php`, search for the `module.enable` key and set `consentSimpleAdmin` to true:
+
+```
+    'module.enable' => [
+         'consentSimpleAdmin' => true,
+         …
+    ],
+```
