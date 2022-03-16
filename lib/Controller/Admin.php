@@ -68,7 +68,7 @@ class Admin
         $attributes = $as->getAttributes();
 
         // Get user ID
-        $userid_attributename = $consentconfig->getValue('userid', 'eduPersonPrincipalName');
+        $userid_attributename = $consentconfig->getOptionalValue('userid', 'eduPersonPrincipalName');
 
         if (empty($attributes[$userid_attributename])) {
             throw new Exception(sprintf(
