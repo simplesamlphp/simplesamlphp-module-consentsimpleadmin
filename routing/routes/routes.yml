@@ -1,6 +1,9 @@
 consentsimpleadmin-admin:
     path:       /admin
     defaults:   { _controller: 'SimpleSAML\Module\consentsimpleadmin\Controller\Admin::admin' }
+    methods:    [GET]
+
 consentsimpleadmin-stats:
     path:       /stats
     defaults:   { _controller: 'SimpleSAML\Module\consentsimpleadmin\Controller\Stats::stats' }
+    methods:    [GET]
