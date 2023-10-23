@@ -4,15 +4,9 @@ declare(strict_types=1);
 
 namespace SimpleSAML\Module\consentsimpleadmin\Controller;
 
-//use Exception;
-//use SimpleSAML\Auth;
 use SimpleSAML\Configuration;
-//use SimpleSAML\Logger;
-//use SimpleSAML\Module\consent\Auth\Process\Consent;
 use SimpleSAML\Module\consent\Store;
 use SimpleSAML\Session;
-//use SimpleSAML\Metadata\MetaDataStorageHandler;
-//use SimpleSAML\Module\consent\Store;
 use SimpleSAML\Utils;
 use SimpleSAML\XHTML\Template;
 use Symfony\Component\HttpFoundation\Request;
