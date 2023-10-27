@@ -15,6 +15,11 @@ use SimpleSAML\Module\consent\Store;
 use SimpleSAML\XHTML\Template;
 use Symfony\Component\HttpFoundation\Request;
 
+use function array_key_exists;
+use function count;
+use function sprintf;
+use function strval;
+
 /**
  * Controller class for the consentsimpleadmin module.
  *
@@ -24,13 +29,6 @@ use Symfony\Component\HttpFoundation\Request;
  */
 class Admin
 {
-    /** @var \SimpleSAML\Configuration */
-    protected Configuration $config;
-
-    /** @var \SimpleSAML\Session */
-    protected Session $session;
-
-
     /**
      * Controller constructor.
      *
@@ -42,11 +40,9 @@ class Admin
      * @throws \Exception
      */
     public function __construct(
-        Configuration $config,
-        Session $session
+        protected Configuration $config,
+        protected Session $session
     ) {
-        $this->config = $config;
-        $this->session = $session;
     }
 
 
@@ -131,8 +127,8 @@ class Admin
         $t->data['consentServices'] = count($consentServices);
         $t->data['consents'] = count($user_consent_list);
         $t->data['granted'] = $translator->t('{consentSimpleAdmin:consentsimpleadmin:granted}', [
-            '%NO%' => (string)$this->data['consents'],
-            '%OF%' => (string)$this->data['consentServices'],
+            '%NO%' => strval($this->data['consents']),
+            '%OF%' => strval($this->data['consentServices']),
         ]);
 
         return $t;
