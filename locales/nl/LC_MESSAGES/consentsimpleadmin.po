@@ -15,30 +15,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "Toestemming intrekken"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr "Je hebt eerder %NO% toestemmingen gegeven aan %OF% verschillende diensten."
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "Als je alle gegeven toestemmingen intrekt, zal je elke keer dat je een "
 "nieuwe dienst bezoekt opnieuw gevraagd worden of je een gegeven set "
 "persoonsgegevens wilt vrijgeven."
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "Trek alle gegeven toestemming in"
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "Statistiek"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "%NO% unieke gebruikers hebben toestemming verleend."
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "Toestemming is verleend aan %NO% unieke diensten."
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "Je toestemmingsopslag bevat %NO% items."
 

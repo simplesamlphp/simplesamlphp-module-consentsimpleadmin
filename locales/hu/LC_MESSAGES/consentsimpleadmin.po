@@ -15,30 +15,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "Hozzájárulás visszavonása"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr "%NO% db. hozzájárulást adott %OF% különböző szolgáltatásnak."
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "Ha visszavonja az összes hozzájárulást, akkor minden alkalommal, amikor "
 "egy új szolgáltatást kíván igénybe venni, hozzá kell járulnia személyes "
 "adatainak kiadásához."
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "Az összes hozzájárulás visszavonása"
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "Hozzájárulás tároló statisztikák"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "%NO% különböző felhasználó adott hozzájárulást."
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "%NO% különböző szolgáltatáshoz adtak hozzájárulást."
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "A hozzájárulás tároló %NO% bejegyzést tartalmaz."
 

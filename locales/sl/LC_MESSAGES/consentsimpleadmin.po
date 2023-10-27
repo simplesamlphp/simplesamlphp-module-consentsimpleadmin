@@ -16,29 +16,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "Preklic privolitve"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr "Potrdili ste %NO% privolitev za %OF% različnih storitev."
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "V primeru preklica vseh privolitev, boste ob dostopu do storitev ponovno "
 "pozvani k privolitvi posredovanja osebnih podatkov storitvi."
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "Prekliči vse privolitve."
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "Statistika privolitev"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "Privolitev je dalo %NO% različnih uporabnikov."
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "%NO% različnih storitev je dobilo privolitev."
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "Privolitvena stran vsebuje %NO% zapisov."
 

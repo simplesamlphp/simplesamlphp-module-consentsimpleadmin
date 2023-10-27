@@ -16,30 +16,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "Retragerea consimțământului"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr "Ați acordat mai devreme %NO% consimțăminte pentru %OF% servicii diferite."
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "Dacă anulați toate consimțămintele acordate, de fiecare dată când "
 "accesați un serviciu nou veți fi întrebat dacă sunteți de acord ca o "
 "parte din informațiile personale să fie transferată."
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "Retrage toate consimțămintele"
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "Statistici despre stocarea consimțămintelor"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "Un număr de %NO% utilizatori au fost de acord."
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "Consimțământul a fost acordat pentru %NO% servicii."
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "Zona de stocare a consimțămintelor conține %NO% intrări."
 

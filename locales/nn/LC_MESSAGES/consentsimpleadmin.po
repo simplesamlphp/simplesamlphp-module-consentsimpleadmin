@@ -15,31 +15,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "Tilbaketrekking av samtykke"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr "Du har tidlegare gjeve %NO% samtykke til %OF% ulike tenester."
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "Dersom du trekk tilbake samtykke, blir du spurd ved neste innlogging om "
 "du er villig til å overføra informasjon til tenesta.  Dette skjer før "
 "innlogging og inneber ikkje at tenesta ser informasjon, men du får vist "
 "fram kva som blir overført."
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "Trekk tilbake alle samtykke"
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "Statistikk for samtykke"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "%NO% unike brukarar har gjeve samtykke."
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "Samtykke er gjeve til %NO% unike tenester"
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "Samtykkelageret har %NO% innslag."
 

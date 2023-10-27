@@ -15,30 +15,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "Onespena kendu"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr "Lehenago %NO% onespen onartu dituzu %OF% zerbitzu ezberdinentzat."
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "Emandako onespen guztiak kentzen badituzu,zerbitzu berri bat bisitatzen "
 "duzun bakoitzean berriro galdetuko dizugu, datu multzo bat transferitua "
 "izatea onartu edo baztertzen duzun alde batera utzita."
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "Emandako onespen guztiak kendu"
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "Biltegiratutako onespenen estatistikak"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "%NO% erabiltzailek bere onespena eman dute."
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "Onespena %NO% zerbitzu ezberdinei emana."
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "Onespenen biltegiak %NO% sarrera ditu."
 

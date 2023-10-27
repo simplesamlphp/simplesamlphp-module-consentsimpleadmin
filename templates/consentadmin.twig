@@ -1,17 +1,17 @@
-{% set pagetitle = '{consentSimpleAdmin:consentsimpleadmin:header}'|trans %}
+{% set pagetitle = 'Consent withdrawal'|trans %}
 {% extends "base.twig" %}
 
 {% block content %}
 <p>
     <p>{{ granted }}</p>
-    <p>{{ '{consentSimpleAdmin:consentsimpleadmin:info}'|trans }}</p>
+    <p>{{ 'If you withdraw all consents given, you will be asked again each time you visit a new service, whether or not you would like to accept that a given set of personal information are transferred.'|trans }}</p>
 </p>
 
-<!-- <p>You have granted {{ consents}} consents to {{ consentServices }} different services.</p>
+<!-- <p>You have granted {{ consents }} consents to {{ consentServices }} different services.</p>
 <p>If you withdraw all consents given, you will be asked again each time you visit a new service, whether or not you would like to accept that a given set of attributes are transferred.</p> -->
 
 <form method="get" action="consentAdmin.php">
-    <input type="submit" name="withdraw" value="{{ '{consentSimpleAdmin:consentsimpleadmin:withdraw}'|trans }}" />
+    <input type="submit" name="withdraw" value="{{ 'Withdraw all consent given'|trans }}" />
 </form>
 <!--  Withdraw all consent given -->
 

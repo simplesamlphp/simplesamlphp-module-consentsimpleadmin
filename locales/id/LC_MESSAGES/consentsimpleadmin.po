@@ -15,32 +15,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "Penarikan consent"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr ""
 "Sebelumnya anda telah memberikan memberikan hak akses sejumlah %NO%  "
 "consent kepada %OF%   layanan berbeda."
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "Jika anda menarik semua consent yang diberikan, anda akan ditanya lagi "
 "setiap kalu anda mengunjungi sebuah layanan baru, apakah anda ingin atau "
 "tidak  jika sekumpulan informasi personal itu ditransfer."
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "Tarik semua consent yang diberikan"
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "Statistik Penyimpanan Consent"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "Sejumlah %NO%  user  telah diberikan consent."
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "Consent diberikan kepada %NO% layanan."
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "Penyimpan consent mengandung %NO% entri."
 

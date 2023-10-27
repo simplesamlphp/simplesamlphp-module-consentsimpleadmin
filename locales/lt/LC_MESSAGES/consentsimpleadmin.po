@@ -16,30 +16,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "Leidimo atšaukimas"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr "Jūs anksčiau suteikėte %NO% ledimus %OF% įvairioms paslaugoms."
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "Jei atšauksime visus suteiktus leidimus, kiekvieną kartą kai lankysite "
 "naują paslaugą  vėl būsite klausiamas, ar sutinkate, kad būtų perduodamas"
 " duotasis asmeninės informacijos rinkinys."
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "Atšaukti visus suteiktus leidimus"
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "Leidimų Saugyklos Statistika"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "%NO% unikalių naudotojų suteikė leidimą."
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "Leidimas suteiktas %NO% unikalioms paslaugoms."
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "Leidimų saugyklose yra %NO% įrašų."
 

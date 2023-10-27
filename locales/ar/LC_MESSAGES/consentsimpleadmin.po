@@ -16,29 +16,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "الغاء الموافقة"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr "لقد قمت بإعطاء ٪عدد٪ موافقة ل ٪ل٪ الخدمات المختلفة"
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "اذا قمت بإلغاء جميع الموافقات الممنوحة سيتم سؤالك كلما دخلت لخدمة جديدة "
 "عن قبولك او رفضك لتحويل بعض معلوماتك الشخصية"
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "الغ كل الموافقات الممنوحة"
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "احصائيات الموافقات المختزنة"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "٪عدد٪ مستخدم فريد اعطي موافقته"
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "تم إعطاء موافقة ل٪عدد٪ مخدم فريد"
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "مستودع الموافقات يحتوي علي ٪عدد٪ ادخال"
 

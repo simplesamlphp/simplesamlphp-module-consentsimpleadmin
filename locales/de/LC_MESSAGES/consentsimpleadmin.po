@@ -15,30 +15,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "Rückzug der Genehmigung"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr "Sie haben bisher %NO% Genehmigungen an %OF% verschiedene Services erteilt."
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "Wenn Sie alle Genehmigungen zurückziehen, müssen Sie beim erneuten Besuch"
 " eines Services, wieder die Genehmigung erteilen, dass Ihre "
 "personenbezogenen Daten übertragen werden dürfen."
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "Alle Genehmigungen zurückziehen"
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "Statistik über Ihre Genehmigungen"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "%NO% verschiedene Benutzer haben ihre Genehmigung erteilt"
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "Genehmigung an %NO% Dienste erteilt"
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "Sie haben %NO% Genehmigungen erteilt"
 

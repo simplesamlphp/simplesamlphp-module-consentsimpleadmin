@@ -15,30 +15,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-msgid "{consentsimpleadmin:header}"
+msgid "Consent withdrawal"
 msgstr "Onaydan vazgeçme"
 
-msgid "{consentsimpleadmin:granted}"
+msgid "You have earlier granted %NO% consents to %OF% different services."
 msgstr "Daha önce %NO% onaylarını %OF% farklı servisler için garanti ettiniz."
 
-msgid "{consentsimpleadmin:info}"
+msgid ""
+"If you withdraw all consents given, you will be asked again each time you"
+" visit a new service, whether or not you would like to accept that a "
+"given set of personal information are transferred."
 msgstr ""
 "Verilen tüm onaylamalardan vazgeçerseniz, verilen bir kişisel bilgi "
 "kümesinin aktarılmasını kabul etmeyi isteseniz istemeseniz de, yeni bir "
 "servise her girdiğinizde tekrar sorgulanacaksınız"
 
-msgid "{consentsimpleadmin:withdraw}"
+msgid "Withdraw all consent given"
 msgstr "Verilen tüm onaylardan vazgeç"
 
-msgid "{consentsimpleadmin:headerstats}"
+msgid "Consent Storage Statistics"
 msgstr "Onay Depolama İstatistikleri"
 
-msgid "{consentsimpleadmin:statusers}"
+msgid "%NO% unique users have given consent."
 msgstr "%NO% biricik (unique) kullanıcılar onay verdi."
 
-msgid "{consentsimpleadmin:statservices}"
+msgid "Consent is given to %NO% unique services."
 msgstr "Onay %NO% biricik (unique) servislere veriliyor."
 
-msgid "{consentsimpleadmin:stattotal}"
+msgid "Consent storage contains %NO% entries."
 msgstr "Onay depolama %NO% elemanları içermektedir"
 

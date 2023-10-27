@@ -63,15 +63,15 @@ class Statistics
 
         $t->data['stats'] = $stats;
         $t->data['total'] = $translator->t(
-            '{consentSimpleAdmin:consentsimpleadmin:stattotal}',
+            'Consent storage contains %NO% entries.',
             ['%NO%' => $t->data['stats']['total']]
         );
         $t->data['statusers'] = $translator->t(
-            '{consentSimpleAdmin:consentsimpleadmin:statusers}',
+            '%NO% unique users have given consent.',
             ['%NO%' => $t->data['stats']['users']]
         );
         $t->data['statservices'] = $translator->t(
-            '{consentSimpleAdmin:consentsimpleadmin:statservices}',
+            'Consent is given to %NO% unique services.',
             ['%NO%' => $t->data['stats']['services']]
         );
         return $t;
