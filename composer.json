@@ -17,6 +17,11 @@
     "extra": {
         "ssp-mixedcase-module-name": "consentSimpleAdmin"
     },
+    "autoload": {
+        "psr-4": {
+            "SimpleSAML\\Module\\consentsimpleadmin\\": "src/"
+        }
+    },
     "require": {
         "php": "^8.0",
         "simplesamlphp/composer-module-installer": "~1.3.4",
