@@ -18,7 +18,7 @@ use Symfony\Component\HttpFoundation\Request;
  *
  * @package simplesamlphp/simplesamlphp-module-consentsimpleadmin
  */
-class Statistics
+class Stats
 {
     /**
      * Controller constructor.
