@@ -3,9 +3,9 @@ $finder = PhpCsFixer\Finder::create()
     ->in([
         __DIR__ . '/config-templates',
         __DIR__ . '/hooks',
+        __DIR__ . '/public',
         __DIR__ . '/src',
         __DIR__ . '/tests',
-        __DIR__ . '/www',
     ])
 ;
 return PhpCsFixer\Config::create()
