@@ -38,6 +38,10 @@
         "simplesamlphp/simplesamlphp-test-framework": "^1.5.5"
     },
     "config": {
+        "preferred-install": {
+            "simplesamlphp/simplesamlphp": "source",
+            "*": "dist"
+        },
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
             "simplesamlphp/composer-module-installer": true
