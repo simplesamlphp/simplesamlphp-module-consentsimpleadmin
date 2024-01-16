@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace SimpleSAML\Module\consentsimpleadmin\Controller;
+namespace SimpleSAML\Module\consentSimpleAdmin\Controller;
 
 use Exception;
 use SimpleSAML\Auth;
 use SimpleSAML\Configuration;
 use SimpleSAML\Logger;
-use SimpleSAML\Module\consent\Auth\Process\Consent;
-use SimpleSAML\Session;
 use SimpleSAML\Metadata\MetaDataStorageHandler;
+use SimpleSAML\Module\consent\Auth\Process\Consent;
 use SimpleSAML\Module\consent\Store;
+use SimpleSAML\Session;
 use SimpleSAML\XHTML\Template;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -101,9 +101,10 @@ class Admin
 
         // Check if button with withdraw all consent was clicked
         if (array_key_exists('withdraw', $_REQUEST)) {
-            Logger::info(
-                'consentAdmin: UserID [' . $hashed_user_id . '] has requested to withdraw all consents given...'
-            );
+            Logger::info(sprintf(
+                'consentAdmin: UserID [%s] has requested to withdraw all consents given...',
+                $hashed_user_id,
+            ));
 
             $consent_storage->deleteAllConsents($hashed_user_id);
         }
@@ -116,9 +117,11 @@ class Admin
             $consentServices[$c[1]] = 1;
         }
 
-        Logger::debug(
-            'consentAdmin: no of consents [' . count($user_consent_list) . '] no of services [' . count($consentServices) . ']'
-        );
+        Logger::debug(sprintf(
+            'consentAdmin: no of consents [%d] no of services [%d]',
+            count($user_consent_list),
+            count($consentServices),
+        ));
 
         // Init template
         $t = new Template($this->config, 'consentSimpleAdmin:consentadmin.twig');

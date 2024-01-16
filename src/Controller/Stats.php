@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SimpleSAML\Module\consentsimpleadmin\Controller;
+namespace SimpleSAML\Module\consentSimpleAdmin\Controller;
 
 use SimpleSAML\Configuration;
 use SimpleSAML\Module\consent\Store;
