@@ -32,7 +32,7 @@ class Stats
      */
     public function __construct(
         protected Configuration $config,
-        protected Session $session
+        protected Session $session,
     ) {
     }
 
@@ -64,15 +64,15 @@ class Stats
         $t->data['stats'] = $stats;
         $t->data['total'] = $translator->t(
             'Consent storage contains %NO% entries.',
-            ['%NO%' => $t->data['stats']['total']]
+            ['%NO%' => $t->data['stats']['total']],
         );
         $t->data['statusers'] = $translator->t(
             '%NO% unique users have given consent.',
-            ['%NO%' => $t->data['stats']['users']]
+            ['%NO%' => $t->data['stats']['users']],
         );
         $t->data['statservices'] = $translator->t(
             'Consent is given to %NO% unique services.',
-            ['%NO%' => $t->data['stats']['services']]
+            ['%NO%' => $t->data['stats']['services']],
         );
         return $t;
     }

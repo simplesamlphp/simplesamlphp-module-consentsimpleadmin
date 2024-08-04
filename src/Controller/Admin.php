@@ -41,7 +41,7 @@ class Admin
      */
     public function __construct(
         protected Configuration $config,
-        protected Session $session
+        protected Session $session,
     ) {
     }
 
@@ -69,7 +69,7 @@ class Admin
         if (empty($attributes[$userid_attributename])) {
             throw new Exception(sprintf(
                 'Could not generate useridentifier for storing consent. Attribute [%s] was not available.',
-                $userid_attributename
+                $userid_attributename,
             ));
         }
 
