@@ -57,21 +57,8 @@ class Stats
 
         // Init template
         $t = new Template($this->config, 'consentSimpleAdmin:consentstats.twig');
-        $translator = $t->getTranslator();
-
         $t->data['stats'] = $stats;
-        $t->data['total'] = $translator->t(
-            'Consent storage contains %NO% entries.',
-            ['%NO%' => $t->data['stats']['total']],
-        );
-        $t->data['statusers'] = $translator->t(
-            '%NO% unique users have given consent.',
-            ['%NO%' => $t->data['stats']['users']],
-        );
-        $t->data['statservices'] = $translator->t(
-            'Consent is given to %NO% unique services.',
-            ['%NO%' => $t->data['stats']['services']],
-        );
+
         return $t;
     }
 }

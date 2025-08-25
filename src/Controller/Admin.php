@@ -122,8 +122,6 @@ class Admin
 
         // Init template
         $t = new Template($this->config, 'consentSimpleAdmin:consentadmin.twig');
-        $translator = $t->getTranslator();
-
         $t->data['consentServices'] = count($consentServices);
         $t->data['consents'] = count($user_consent_list);
 

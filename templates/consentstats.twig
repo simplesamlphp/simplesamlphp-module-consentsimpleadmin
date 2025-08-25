@@ -3,8 +3,8 @@
 
 {% block content %}
 <p>
-    <p>{{ stattotal }} }}</p>
-    <p>{{ statusers }} }}</p>
-    <p>{{ statservices }} }}</p>
+    <p>{{ 'Consent storage contains %NO% entries.'|trans({'%NO%': stats.total }) }}</p>
+    <p>{{ '%NO% unique users have given consent.'|trans({'%NO': stats.users }) }}</p>
+    <p>{{ 'Consent is given to %NO% unique services.'|trans({'%NO': stats.services }) }}</p>
 </p>
 {% endblock %}
