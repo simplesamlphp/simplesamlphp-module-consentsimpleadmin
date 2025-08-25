@@ -45,7 +45,7 @@ jobs:
       fail-fast: false
       matrix:
         operating-system: [ubuntu-latest]
-        php-versions: ['8.1', '8.2', '8.3']
+        php-versions: ['8.1', '8.2', '8.3', '8.4']
 
     steps:
       - name: Setup PHP, with composer and extensions
@@ -85,15 +85,15 @@ jobs:
         run: composer install --no-progress --prefer-dist --optimize-autoloader
 
       - name: Run unit tests with coverage
-        if: ${{ matrix.php-versions == '8.3' }}
+        if: ${{ matrix.php-versions == '8.4' }}
         run: vendor/bin/phpunit
 
       - name: Run unit tests (no coverage)
-        if: ${{ matrix.php-versions != '8.3' }}
+        if: ${{ matrix.php-versions != '8.4' }}
         run: vendor/bin/phpunit --no-coverage
 
       - name: Save coverage data
-        if: ${{ matrix.php-versions == '8.3' }}
+        if: ${{ matrix.php-versions == '8.4' }}
         uses: actions/upload-artifact@v4
         with:
           name: coverage-data
@@ -107,7 +107,7 @@ jobs:
       fail-fast: true
       matrix:
         operating-system: [windows-latest]
-        php-versions: ['8.1', '8.2', '8.3']
+        php-versions: ['8.1', '8.2', '8.3', '8.4']
 
     steps:
       - name: Setup PHP, with composer and extensions
@@ -115,7 +115,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-versions }}
-          extensions: ctype, date, dom, fileinfo, filter, hash, intl, mbstring, openssl, pcre, posix, spl, xml
+          extensions: ctype, date, dom, fileinfo, filter, hash, intl, mbstring, openssl, pcre, posix, spl, xml, zip
           tools: composer
           ini-values: error_reporting=E_ALL
           coverage: none
@@ -196,27 +196,16 @@ jobs:
       - name: PHP Code Sniffer
         run: phpcs
 
-      - name: Psalm
-        continue-on-error: true
-        run: |
-          psalm -c psalm.xml \
-          --show-info=true \
-          --shepherd \
-          --php-version=${{ steps.setup-php.outputs.php-version }}
+      - name: PHP Code Sniffer
+        run: phpcs
 
-      - name: Psalm (testsuite)
+      - name: PHPStan
         run: |
-          psalm -c psalm-dev.xml \
-          --show-info=true \
-          --shepherd \
-          --php-version=${{ steps.setup-php.outputs.php-version }}
+          vendor/bin/phpstan analyze -c phpstan.neon
 
-      - name: Psalter
+      - name: PHPStan (testsuite)
         run: |
-          psalm --alter \
-          --issues=UnnecessaryVarAnnotation \
-          --dry-run \
-          --php-version=${{ steps.setup-php.outputs.php-version }}
+          vendor/bin/phpstan analyze -c phpstan-dev.neon
 
   security:
     name: Security checks

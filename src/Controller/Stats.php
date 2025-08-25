@@ -27,8 +27,6 @@ class Stats
      *
      * @param \SimpleSAML\Configuration $config The configuration to use by the controllers.
      * @param \SimpleSAML\Session $session The session to use by the controllers.
-     *
-     * @throws \Exception
      */
     public function __construct(
         protected Configuration $config,
@@ -58,7 +56,7 @@ class Stats
         $stats = $consent_storage->getStatistics();
 
         // Init template
-        $t = new Template($config, 'consentSimpleAdmin:consentstats.twig');
+        $t = new Template($this->config, 'consentSimpleAdmin:consentstats.twig');
         $translator = $t->getTranslator();
 
         $t->data['stats'] = $stats;
