@@ -18,7 +18,6 @@ use Symfony\Component\HttpFoundation\Request;
 use function array_key_exists;
 use function count;
 use function sprintf;
-use function strval;
 
 /**
  * Controller class for the consentsimpleadmin module.
@@ -36,8 +35,6 @@ class Admin
      *
      * @param \SimpleSAML\Configuration $config The configuration to use by the controllers.
      * @param \SimpleSAML\Session $session The session to use by the controllers.
-     *
-     * @throws \Exception
      */
     public function __construct(
         protected Configuration $config,
@@ -129,10 +126,6 @@ class Admin
 
         $t->data['consentServices'] = count($consentServices);
         $t->data['consents'] = count($user_consent_list);
-        $t->data['granted'] = $translator->t('{consentSimpleAdmin:consentsimpleadmin:granted}', [
-            '%NO%' => strval($this->data['consents']),
-            '%OF%' => strval($this->data['consentServices']),
-        ]);
 
         return $t;
     }

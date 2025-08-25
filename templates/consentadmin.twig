@@ -3,7 +3,7 @@
 
 {% block content %}
 <p>
-    <p>{{ granted }}</p>
+    <p>{{ 'You have earlier granted %NO% consents to %OF% different services.'|trans({'%NO%': consents, '%OF%': consentServices }) }}</p>
     <p>{{ 'If you withdraw all consents given, you will be asked again each time you visit a new service, whether or not you would like to accept that a given set of personal information are transferred.'|trans }}</p>
 </p>
 
