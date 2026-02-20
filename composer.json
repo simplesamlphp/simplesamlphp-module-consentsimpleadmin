@@ -28,14 +28,14 @@
         }
     },
     "require": {
-        "php": "^8.1",
-        "simplesamlphp/composer-module-installer": "~1.4.0",
-        "simplesamlphp/simplesamlphp": "^2.4",
-        "simplesamlphp/simplesamlphp-module-consent": "~1.4.1",
-        "symfony/http-foundation": "^6.4"
+        "php": "^8.3",
+        "simplesamlphp/composer-module-installer": "~1.7.0",
+        "simplesamlphp/simplesamlphp": "~2.5@dev",
+        "simplesamlphp/simplesamlphp-module-consent": "~1.5",
+        "symfony/http-foundation": "^7.4"
     },
     "require-dev": {
-        "simplesamlphp/simplesamlphp-test-framework": "~1.9.3"
+        "simplesamlphp/simplesamlphp-test-framework": "~1.11"
     },
     "config": {
         "preferred-install": {
