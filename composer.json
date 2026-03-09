@@ -24,6 +24,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "SimpleSAML\\Module\\consent\\": "vendor/simplesamlphp/simplesamlphp/modules/consent/src",
             "SimpleSAML\\Test\\Utils\\": "vendor/simplesamlphp/simplesamlphp/tests/Utils"
         }
     },

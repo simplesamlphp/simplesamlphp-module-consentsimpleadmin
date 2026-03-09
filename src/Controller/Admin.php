@@ -43,7 +43,6 @@ class Admin
     }
 
 
-
     /**
      * @param \Symfony\Component\HttpFoundation\Request $request The current request.
      *
